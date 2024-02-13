@@ -5,19 +5,19 @@ public class Esempio1Variabili
     public static void main(String[] args) 
     {
         
-        Persona p1 = new Persona("Stefano", "Rubinetti");
+        PersonaOld p1 = new PersonaOld("Stefano", "Rubinetti");
 
-        Persona p2 = new Persona("Stefano", "Rubinetti");
+        PersonaOld p2 = new PersonaOld("Stefano", "Rubinetti");
 
-        Persona p3 = p1;
+        PersonaOld p3 = p1;
 
-        Persona p4 = p2;
+        PersonaOld p4 = p2;
 
         p1.nome = "Esteban";
 
         p2.cognome = "Ruby";
 
-        Persona[] v = new Persona[]{p2,p4};
+        PersonaOld[] v = new PersonaOld[]{p2,p4};
 
         System.out.println("22  "+p1);//Esteban Rubinetti
         System.out.println("23  "+p2);//Stefano Ruby

@@ -1,12 +1,12 @@
 package variabili;
 
-public class Persona
+public class PersonaOld
 {
     public String nome,cognome;
     public Integer age;
 
-    public Persona(){}
-    public Persona(String nome, String cognome) {
+    public PersonaOld(){}
+    public PersonaOld(String nome, String cognome) {
         this.nome = nome;
         this.cognome = cognome;
     }
