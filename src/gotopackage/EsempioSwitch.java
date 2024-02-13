@@ -6,17 +6,17 @@ public class EsempioSwitch
     {
         //switch : costrutto che esegue un determinato blocco di codice in base al valore di una variabile
 
-        String lingua = "ita";
-       
-        switch (lingua) 
+       // String lingua = "ita";
+       int num = 2;
+        switch (num) 
         {
-            case "ita":
+            case 1:
                 System.out.println("CIAO");   
             break;
-            case "eng":
+            case 2:
                 System.out.println("HELLO");   
             break;
-            case "de":
+            case 3:
                 System.out.println("HALLO");   
             break;
             default:
