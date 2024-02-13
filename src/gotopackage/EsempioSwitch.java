@@ -19,9 +19,6 @@ public class EsempioSwitch
             case "de":
                 System.out.println("HALLO");   
             break;
-            case "esp":
-                System.out.println("HOLA");   
-            break;
             default:
                 System.out.println("LANGUAGE NOT SUPPORTED YET");   
             break;
