@@ -8,25 +8,27 @@ public class EsempioGOTO2
 
         if(a>5)
         {
-            //blocco di verità dell'IF
+            
             a+=6;
             System.out.println("A era maggiore di 5, A + 6 vale "+a);
         }
-        else
+        else//startElse:
         {
              //blocco di falsità
             System.out.println("A è minore= a 5, vale infatti: "+a);
-        }
+        }//endElse:
 
-
-        // if(a<=5) GOTO riga 28;
+        // if(a<=5) GOTO startElse;
         // 
         // a+=6;
         // System.out.println("A era maggiore di 5, A + 6 vale "+a);
-        // GOTO riga 29; FINE IF
+        // GOTO endElse; 
         //
-        // System.out.println("A è minore= a 5, vale infatti: "+a); BLOCCO ELSE
-        //FINE ELSE
+        // startElse:
+        // 
+        //      System.out.println("A è minore= a 5, vale infatti: "+a);
+        // 
+        // endElse:
 
 
     }
