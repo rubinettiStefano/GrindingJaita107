@@ -74,6 +74,15 @@ public class Generatore
             }
         }
 
+        for (int j = 0; j < 5; j++) {
+            if (j != col) {
+                for (int i = 0; i < 5; i++) {
+                    if (matrix[i][j] == 0) {
+                        matrix[i][j] = (char) (random.nextInt(26) + 'a');
+                    }
+                }
+            }
+        }
         return matrix;
     }
 }
