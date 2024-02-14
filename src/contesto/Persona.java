@@ -8,6 +8,6 @@ public class Persona
 
     //SCOPE DI OGGETTO
     public String nome;
-    String cognome;
+    public String cognome;
     public int eta;
 }
