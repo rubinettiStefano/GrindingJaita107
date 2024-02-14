@@ -21,6 +21,18 @@ public class CercaParola
         List<String> elenco = new ArrayList<String>();
 
 
+
+        switch(elenco.get(1))
+        {
+            case "cane":
+                System.out.println("ciao");
+        }
+
+        int a =10;
+
+
+        // a>5 ? System.out.println("ciao") : System.out.println("arrivederci");
+
         for(int j=0;j<5;j++)
         {
             String s = "";
