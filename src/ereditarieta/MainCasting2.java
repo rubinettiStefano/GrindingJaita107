@@ -29,7 +29,6 @@ public class MainCasting2
         //3 oggetti, uno di tipo Persona, uno di tipo Impiegato, uno di tipo Studente
 
 
-
         Persona imp  = i;
         Persona stud = s;
 
