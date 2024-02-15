@@ -17,7 +17,11 @@ public abstract class Persona extends Entity
         this.eta = eta;
     }
 
-    
+    @Override
+    public int getId()
+    {
+        return 44;
+    }
 
 
 
