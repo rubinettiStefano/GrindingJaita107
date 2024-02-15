@@ -1,8 +1,12 @@
 package ereditarieta;
 
-public class Studente 
+public class Studente extends Persona
 {
-    public String nome,cognome;
-    public int eta;
     public int media;
+
+    @Override
+    public String toString()
+    {
+        return "Ciao sono "+nome +" "+cognome+" e ho di media "+media;
+    }
 }

@@ -17,13 +17,39 @@ public class MainCasting2
         i.eta = 35;
         i.stipendio = 1800;
 
+        Studente s = new Studente();
+        s.nome = "Luca";
+        s.cognome = "Del Gatto";
+        s.eta = 30;
+        s.media = 9;
+
+        System.out.println(p);
+        
+
+        //3 oggetti, uno di tipo Persona, uno di tipo Impiegato, uno di tipo Studente
 
 
-        metodinoStampa(p);
-        metodinoStampa(i);
 
-        metodinoStampaImp(i);
-        metodinoStampaImp((Impiegato)p);
+        Persona imp  = i;
+        Persona stud = s;
+
+
+        System.out.println(imp);
+        System.out.println(stud);
+
+
+
+
+
+
+
+
+
+        // metodinoStampa(p);
+        // metodinoStampa(i);
+
+        // metodinoStampaImp(i);
+        // metodinoStampaImp((Impiegato)p);
     }
 
     public static void metodinoStampa(Persona p )
