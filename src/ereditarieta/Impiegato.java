@@ -1,5 +1,8 @@
 package ereditarieta;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // un Impiegato È ANCHE una Persona
 public class Impiegato extends Persona
 {
@@ -14,7 +17,15 @@ public class Impiegato extends Persona
         this.stipendio = stipendio;
     }
 
+    @Override
+    public List<String> getErrors() 
+    {   
+        List<String> res = super.getErrors();
+        if(stipendio<0 || stipendio>270000)
+            res.add("ERRORE: stipendio negativo o troppo elevato");
 
+        return res;
+    }
 
     @Override
     public String toString()
