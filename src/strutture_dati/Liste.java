@@ -24,6 +24,8 @@ public class Liste
 
         l.add(2, "C");
 
+        
+
         //0    1      2         3         4       5
         //S    A      C         T         P       L
     }   

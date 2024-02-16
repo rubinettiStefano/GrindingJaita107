@@ -47,7 +47,9 @@ public class Vettori
         //1) sono più PERFORMANTI
         //2) possono contenere primitivi
 
+        System.out.println(spVet);
+        System.out.println(spVet.hashCode());
 
-        List<String> lista = Arrays.asList(spVet);
+        System.out.println(spVet.hashCode());
     }
 }
